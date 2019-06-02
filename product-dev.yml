@@ -8,13 +8,6 @@ spring:
     password: root
   application:
     name: product
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
-  instance:
-      prefer-ip-address: true
-      instance-id: ${spring.cloud.client.ip-address}:${server.port}
 server:
   port: 8082
 env:
