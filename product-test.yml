@@ -19,4 +19,6 @@ server:
   port: 8082
 env:
   test
+label:
+  release
 
