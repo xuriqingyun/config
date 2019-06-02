@@ -17,6 +17,6 @@ eureka:
       instance-id: ${spring.cloud.client.ip-address}:${server.port}
 server:
   port: 8082
-evn:
+env:
   test
 
