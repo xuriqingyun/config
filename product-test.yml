@@ -20,5 +20,5 @@ server:
 env:
   test
 label:
-  dev2
+  dev
 
