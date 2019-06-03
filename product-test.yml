@@ -18,7 +18,7 @@ eureka:
 server:
   port: 8082
 env:
-  test2
+  test3
 label:
   dev
 
