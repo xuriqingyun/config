@@ -4,4 +4,4 @@ zuul:
   routes:
     product: /myProduct/**
   ignored-patterns:
-    - /**/product/list
+    - /abc/product/list
