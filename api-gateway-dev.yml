@@ -3,3 +3,5 @@ zuul:
   sensitive-headers:
   routes:
     product: /myProduct/**
+  ignored-patterns:
+    - /**/product/list
