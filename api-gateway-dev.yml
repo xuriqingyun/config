@@ -6,6 +6,9 @@ zuul:
     devProduct:
       path: /devProduct/**
       serviceId: product
+    origin:
+      path: /baidu/**                           #映射的url
+      url: http://www.baidu.com  
     #简洁写法
     product: /myProduct/**
   #排除某些路由
