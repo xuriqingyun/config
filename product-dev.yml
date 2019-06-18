@@ -8,6 +8,13 @@ spring:
     password: root
   application:
     name: product
+  zipkin:
+    base-url: http://10.200.132.144::9411/
+    sender:
+      type: web
+  sleuth:
+    sampler:
+      probability: 1
 server:
   port: 8082
 env:
