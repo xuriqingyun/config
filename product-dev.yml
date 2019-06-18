@@ -9,7 +9,7 @@ spring:
   application:
     name: product
   zipkin:
-    base-url: http://10.200.132.144::9411/
+    base-url: http://10.200.132.144:9411/
     sender:
       type: web
   sleuth:
